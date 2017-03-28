@@ -1,0 +1,11 @@
+package headfirst.strategy;
+
+public abstract class duck{
+  FlyBehavior f;
+  public setFlyBehavior(FlyBehavior f){
+    f=this.f;
+  }
+  public void performFly(){
+    f.fly();
+  }
+}
