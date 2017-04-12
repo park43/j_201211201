@@ -4,10 +4,11 @@ class java.io.File
 class java.io.InputStream
 class java.io.InputStreamReader
 class java.io.BufferedReader
-class java.io.String
 class java.io.FileInputStream
 
-FileDemoMain --> java.io.String
+java.io.InputStream <|-- java.io.FileInputStream
+java.io.InputStream <--* java.io.FileInputStream
+
 FileDemoMain --> java.io.InputStream
 FileDemoMain --> java.io.InputStreamReader
 FileDemoMain --> java.io.BufferedReader
