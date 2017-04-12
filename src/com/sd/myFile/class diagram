@@ -1,0 +1,14 @@
+class FileDemoMain
+
+class java.io.File
+class java.io.InputStream
+class java.io.InputStreamReader
+class java.io.BufferedReader
+class java.io.String
+class java.io.FileInputStream
+
+FileDemoMain --> java.io.String
+FileDemoMain --> java.io.InputStream
+FileDemoMain --> java.io.InputStreamReader
+FileDemoMain --> java.io.BufferedReader
+FileDemoMain --> java.io.File
