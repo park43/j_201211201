@@ -1,0 +1,15 @@
+class PizzaStore{
+    -{abstract}createPizza(String):Pizza
+    +orderPizza(String):Pizza
+}
+
+PizzaStore -right-> Pizza
+
+PizzaStore <|-- NYPizzaStore
+PizzaStore <|-- SMPizzaStore
+
+Pizza <|-- NYStyleCheese\nPizza
+Pizza <|-- NYStyleVeggie\nPizza
+Pizza <|-- NYStylePepperoni\nPizza
+Pizza <|-- NYStyleClam\nPizza
+Pizza <|-- SMSytlePotato\nPizza
