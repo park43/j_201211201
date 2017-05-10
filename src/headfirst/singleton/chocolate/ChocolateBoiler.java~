@@ -1,6 +1,0 @@
-package headfirst.singleton.chocolate;
-
-public class ChocolateBoiler{
-  
-  public ChocolateBoiler(){}
-}
